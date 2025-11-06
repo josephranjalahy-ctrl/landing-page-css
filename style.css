@@ -101,3 +101,66 @@ button.primary  {
     text-align: center;
     color: gray;
 }
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 80px;
+}
+
+.quote {
+    display: inline;
+    font-size: 36px;
+    width: 750px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    width: 750px;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+.fourth-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.blue-container {
+    background-color: #3882f6;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 40px 80px;
+}
+
+.blue-container > .left {
+    color: white;
+}
+
+.outline {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+.final-block {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
